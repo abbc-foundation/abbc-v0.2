@@ -19,6 +19,17 @@
 #include <wallet/walletdb.h>
 
 
+#include <algorithm>
+#include <atomic>
+#include <map>
+#include <memory>
+#include <set>
+#include <stdexcept>
+#include <stdint.h>
+#include <string>
+#include <utility>
+#include <vector>
+#include <mutex>
 
 extern bool fConfChange;
 class CAccountingEntry;
@@ -86,7 +97,7 @@ public:
 };
 
 
-//class WalletRescanReserver; //forward declarations for ScanForWalletTransactions/RescanFromTime
+class WalletRescanReserver; //forward declarations for ScanForWalletTransactions/RescanFromTime
 
 /** A CWallet is an extension of a keystore, which also maintains a set of transactions and balances,
  * and provides the ability to create new transactions.
@@ -100,9 +111,9 @@ private:
     bool fScanningWallet;
     CWalletDB *pwalletdbEncryption;
 
-    //std::mutex mutexScanning;
+    std::mutex mutexScanning;
 
-    //friend class WalletRescanReserver;
+    friend class WalletRescanReserver;
 
     int nWalletVersion;
 
@@ -1030,7 +1041,6 @@ private:
 
 bool GetWalletFile(CWallet* pwallet, std::string &strWalletFileOut);
 
-/*
 
 class WalletRescanReserver
 {
@@ -1066,5 +1076,5 @@ public:
     }
 };
 
-*/
+
 #endif

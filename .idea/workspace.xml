@@ -13,479 +13,26 @@
   <component name="ChangeListManager">
     <list default="true" id="e3fec2ab-0715-4712-8972-75f67f17b0be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ABBCCoin.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/.qmake.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/.qmake.stash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/ABBCCoin.pro" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/ABBCCoin.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/.qmake.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/.qmake.stash" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/abbc/abbc/ABBCCoin.pro" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/ABBCCoin.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/aboutdialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/addressbookpage.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/addresstablemodel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/addrman.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/alert.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/askpassphrasedialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/bitcoin.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/bitcoinaddressvalidator.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/bitcoinamountfield.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/bitcoingui.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/bitcoinrpc.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/bitcoinstrings.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/bitcoinunits.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/blake.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/blockbrowser.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/bloom.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/bmw.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/charitydialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/chatwindow.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/checkpoints.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/clientmodel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/coincontroldialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/coincontroltreewidget.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/crypter.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/csvmodelwriter.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/cubehash.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/db.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/echo.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/editaddressdialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/fugue.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/groestl.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/guiutil.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/hamsi.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/hash.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/init.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/irc.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/jh.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/keccak.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/kernel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/key.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/keystore.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/luffa.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/macdockiconhandler.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/main.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/miner.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_aboutdialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_aboutdialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_addressbookpage.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_addressbookpage.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_addresstablemodel.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_addresstablemodel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_askpassphrasedialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_askpassphrasedialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_bitcoinaddressvalidator.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_bitcoinaddressvalidator.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_bitcoinamountfield.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_bitcoinamountfield.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_bitcoingui.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_bitcoingui.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_blockbrowser.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_blockbrowser.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_charitydialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_charitydialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_chatwindow.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_chatwindow.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_clientmodel.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_clientmodel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_coincontroldialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_coincontroldialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_coincontroltreewidget.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_coincontroltreewidget.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_csvmodelwriter.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_csvmodelwriter.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_editaddressdialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_editaddressdialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_guiutil.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_guiutil.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_macdockiconhandler.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_macdockiconhandler.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_monitoreddatamapper.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_monitoreddatamapper.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_notificator.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_notificator.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_optionsdialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_optionsdialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_optionsmodel.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_optionsmodel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_overviewpage.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_overviewpage.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_predefs.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_qrcodedialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_qrcodedialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_qvalidatedlineedit.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_qvalidatedlineedit.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_qvaluecombobox.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_qvaluecombobox.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_rpcconsole.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_rpcconsole.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_sendcoinsdialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_sendcoinsdialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_sendcoinsentry.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_sendcoinsentry.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_serveur.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_serveur.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_signverifymessagedialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_signverifymessagedialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_statisticspage.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_statisticspage.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_transactiondesc.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_transactiondesc.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_transactiondescdialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_transactiondescdialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_transactionfilterproxy.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_transactionfilterproxy.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_transactiontablemodel.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_transactiontablemodel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_transactionview.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_transactionview.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_walletmodel.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/moc_walletmodel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/monitoreddatamapper.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/net.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/netbase.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/notificator.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/noui.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/optionsdialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/optionsmodel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/overviewpage.moc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/overviewpage.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/pbkdf2.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/protocol.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/qrc_bitcoin.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/qrcodedialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/qtipcserver.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/qvalidatedlineedit.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/qvaluecombobox.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/rpcblockchain.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/rpcconsole.moc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/rpcconsole.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/rpcdump.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/rpcmining.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/rpcnet.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/rpcrawtransaction.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/rpcwallet.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/script.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/scrypt-arm.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/scrypt-x86.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/scrypt-x86_64.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/scrypt.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/sendcoinsdialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/sendcoinsentry.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/serveur.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/shavite.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/signverifymessagedialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/simd.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/skein.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/statisticspage.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/sync.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/transactiondesc.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/transactiondescdialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/transactionfilterproxy.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/transactionrecord.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/transactiontablemodel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/transactionview.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/txdb-leveldb.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/ui_aboutdialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/ui_addressbookpage.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/ui_askpassphrasedialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/ui_blockbrowser.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/ui_charitydialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/ui_chatwindow.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/ui_coincontroldialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/ui_editaddressdialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/ui_optionsdialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/ui_overviewpage.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/ui_qrcodedialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/ui_rpcconsole.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/ui_sendcoinsdialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/ui_sendcoinsentry.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/ui_signverifymessagedialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/ui_statisticspage.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/ui_transactiondescdialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/util.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/version.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/wallet.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/walletdb.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/build/walletmodel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/qrc_bitcoin.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/base58.h" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/base58.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/bloom.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/bloom.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/init.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/init.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/init.h" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/init.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/keystore.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/keystore.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/miner.h" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/miner.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/addresstablemodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/addresstablemodel.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/bitcoingui.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/bitcoingui.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/blockbrowser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/blockbrowser.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/blockbrowser.h" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/blockbrowser.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_ca_ES.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_ca_ES.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_da.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_da.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_eo.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_eo.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_es.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_es.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_fr.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_fr.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_fr_CA.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_fr_CA.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_ja.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_ja.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_nl.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_nl.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_ro_RO.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_ro_RO.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_ru.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_ru.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_sk.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_sk.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_sv.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_sv.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_zh_CN.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/locale/bitcoin_zh_CN.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/optionsmodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/optionsmodel.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/signverifymessagedialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/signverifymessagedialog.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/statisticspage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/statisticspage.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/statisticspage.h" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/statisticspage.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/transactiondesc.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/transactiondesc.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/transactionrecord.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/transactionrecord.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/transactiontablemodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/transactiontablemodel.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/qt/walletmodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/qt/walletmodel.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/rpc/rpcblockchain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/rpc/rpcblockchain.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/rpc/rpcdump.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/rpc/rpcdump.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/rpc/rpcnet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/rpc/rpcnet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/rpc/rpcprotocol.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/rpc/rpcprotocol.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/rpc/rpcrawtransaction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/rpc/rpcrawtransaction.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/server/rpcserver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/server/rpcserver.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/server/rpcserver.h" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/server/rpcserver.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/wallet/rpcwallet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/wallet/rpcwallet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/wallet/wallet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/wallet/wallet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbc/abbc/binaries/Linux/ABBCCoind-share-build-22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbc/abbc/binaries/Linux/ABBCCoind20December" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbc/abbc/binaries/Linux/ABBCCoind24thDecember" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbc/abbc/binaries/Linux/ABBCCoind_04OCt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbc/abbc/binaries/Linux/ABBCCoind_06OCT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbc/abbc/binaries/Linux/ABBCCoind_07thoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbc/abbc/binaries/Linux/ABBCCoind_6thoct" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbc/abbc/binaries/Linux/ABBCCoind_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbc/abbc/binaries/Linux/readme.test" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/abbc/abbc/src/wallet/wallet.h" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/wallet/wallet.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/wallet/walletdb.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/wallet/walletdb.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/aboutdialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/addressbookpage.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/addresstablemodel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/addrman.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/alert.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/askpassphrasedialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/bitcoin.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/bitcoinaddressvalidator.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/bitcoinamountfield.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/bitcoingui.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/bitcoinrpc.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/bitcoinstrings.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/bitcoinunits.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/blake.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/blockbrowser.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/bloom.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/bmw.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/charitydialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/chatwindow.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/checkpoints.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/clientmodel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/coincontroldialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/coincontroltreewidget.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/crypter.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/csvmodelwriter.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/cubehash.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/db.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/echo.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/editaddressdialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/fugue.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/groestl.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/guiutil.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/hamsi.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/hash.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/init.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/irc.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/jh.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/keccak.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/kernel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/key.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/keystore.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/luffa.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/macdockiconhandler.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/main.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/miner.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_aboutdialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_aboutdialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_addressbookpage.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_addressbookpage.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_addresstablemodel.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_addresstablemodel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_askpassphrasedialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_askpassphrasedialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_bitcoinaddressvalidator.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_bitcoinaddressvalidator.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_bitcoinamountfield.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_bitcoinamountfield.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_bitcoingui.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_bitcoingui.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_blockbrowser.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_blockbrowser.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_charitydialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_charitydialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_chatwindow.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_chatwindow.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_clientmodel.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_clientmodel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_coincontroldialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_coincontroldialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_coincontroltreewidget.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_coincontroltreewidget.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_csvmodelwriter.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_csvmodelwriter.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_editaddressdialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_editaddressdialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_guiutil.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_guiutil.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_macdockiconhandler.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_macdockiconhandler.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_monitoreddatamapper.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_monitoreddatamapper.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_notificator.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_notificator.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_optionsdialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_optionsdialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_optionsmodel.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_optionsmodel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_overviewpage.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_overviewpage.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_predefs.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_qrcodedialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_qrcodedialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_qvalidatedlineedit.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_qvalidatedlineedit.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_qvaluecombobox.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_qvaluecombobox.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_rpcconsole.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_rpcconsole.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_sendcoinsdialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_sendcoinsdialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_sendcoinsentry.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_sendcoinsentry.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_serveur.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_serveur.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_signverifymessagedialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_signverifymessagedialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_statisticspage.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_statisticspage.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_transactiondesc.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_transactiondesc.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_transactiondescdialog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_transactiondescdialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_transactionfilterproxy.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_transactionfilterproxy.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_transactiontablemodel.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_transactiontablemodel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_transactionview.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_transactionview.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_walletmodel.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/moc_walletmodel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/monitoreddatamapper.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/net.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/netbase.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/notificator.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/noui.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/optionsdialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/optionsmodel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/overviewpage.moc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/overviewpage.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/pbkdf2.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/protocol.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/qrc_bitcoin.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/qrcodedialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/qtipcserver.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/qvalidatedlineedit.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/qvaluecombobox.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/rpcblockchain.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/rpcconsole.moc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/rpcconsole.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/rpcdump.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/rpcmining.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/rpcnet.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/rpcrawtransaction.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/rpcwallet.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/script.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/scrypt-arm.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/scrypt-x86.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/scrypt-x86_64.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/scrypt.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/sendcoinsdialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/sendcoinsentry.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/serveur.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/shavite.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/signverifymessagedialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/simd.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/skein.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/statisticspage.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/sync.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/transactiondesc.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/transactiondescdialog.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/transactionfilterproxy.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/transactionrecord.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/transactiontablemodel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/transactionview.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/txdb-leveldb.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/ui_aboutdialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/ui_addressbookpage.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/ui_askpassphrasedialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/ui_blockbrowser.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/ui_charitydialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/ui_chatwindow.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/ui_coincontroldialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/ui_editaddressdialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/ui_optionsdialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/ui_overviewpage.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/ui_qrcodedialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/ui_rpcconsole.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/ui_sendcoinsdialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/ui_sendcoinsentry.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/ui_signverifymessagedialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/ui_statisticspage.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/ui_transactiondescdialog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/util.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/version.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/wallet.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/walletdb.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/build/walletmodel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/qrc_bitcoin.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/base58.h" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/base58.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/bloom.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/bloom.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/init.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/init.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/init.h" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/init.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/keystore.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/keystore.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/makefile.unix" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/makefile.unix" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/miner.h" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/miner.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/addresstablemodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/addresstablemodel.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/bitcoingui.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/bitcoingui.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/blockbrowser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/blockbrowser.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/blockbrowser.h" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/blockbrowser.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_ca_ES.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_ca_ES.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_da.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_da.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_eo.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_eo.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_es.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_es.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_fr.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_fr.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_fr_CA.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_fr_CA.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_ja.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_ja.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_nl.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_nl.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_ro_RO.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_ro_RO.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_ru.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_ru.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_sk.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_sk.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_sv.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_sv.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_zh_CN.qm" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/locale/bitcoin_zh_CN.qm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/optionsmodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/optionsmodel.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/signverifymessagedialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/signverifymessagedialog.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/statisticspage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/statisticspage.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/statisticspage.h" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/statisticspage.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/transactiondesc.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/transactiondesc.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/transactionrecord.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/transactionrecord.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/transactiontablemodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/transactiontablemodel.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/qt/walletmodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/qt/walletmodel.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/rpc/rpcblockchain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/rpc/rpcblockchain.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/rpc/rpcdump.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/rpc/rpcdump.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/rpc/rpcnet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/rpc/rpcnet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/rpc/rpcprotocol.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/rpc/rpcprotocol.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/rpc/rpcrawtransaction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/rpc/rpcrawtransaction.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/server/rpcserver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/server/rpcserver.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/server/rpcserver.h" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/server/rpcserver.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/wallet/rpcwallet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/wallet/rpcwallet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/wallet/wallet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/wallet/wallet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/wallet/wallet.h" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/wallet/wallet.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/src/wallet/walletdb.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/src/wallet/walletdb.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/ABBCCoind" beforeDir="false" afterPath="$PROJECT_DIR$/build/ABBCCoind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbc/binaries/Linux/ABBCCoind-share-build-22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbc/binaries/Linux/ABBCCoind20December" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbc/binaries/Linux/ABBCCoind24thDecember" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbc/binaries/Linux/ABBCCoind_04OCt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbc/binaries/Linux/ABBCCoind_06OCT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbc/binaries/Linux/ABBCCoind_07thoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbc/binaries/Linux/ABBCCoind_6thoct" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbc/binaries/Linux/ABBCCoind_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbc/binaries/Linux/readme.test" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -504,76 +51,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/abbc/src/qt/optionsdialog.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/abbc/src/qt/transactiondesc.cpp">
+        <entry file="file://$PROJECT_DIR$/abbc/src/wallet/wallet.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/abbc/src/keystore.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-              <folding>
-                <element signature="e#284#305#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/abbc/src/qt/walletmodel.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/abbc/src/server/rpcserver.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1442">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/abbc/src/server/rpcserver.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-              <folding>
-                <element signature="e#233#262#0" expanded="true" />
-                <element signature="e#385#411#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/abbc/src/rpc/rpcdump.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/abbc/src/bitcoinrpc.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="207" column="36" selection-start-line="207" selection-start-column="36" selection-end-line="207" selection-end-column="36" />
+            <state relative-caret-position="355">
+              <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -581,17 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/abbc/src/makefile.unix">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="205" column="24" selection-start-line="205" selection-start-column="24" selection-end-line="205" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/abbc/ABBCCoin.pro">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1839">
-              <caret line="247" column="14" selection-start-line="247" selection-start-column="14" selection-end-line="247" selection-end-column="14" />
+            <state relative-caret-position="316">
+              <caret line="201" column="22" selection-start-line="201" selection-start-column="19" selection-end-line="201" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -600,10 +72,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Importpubkey</find>
-      <find>getun</find>
-      <find>getco</find>
-      <find>Listlabels</find>
       <find>getbalance</find>
       <find>Listreceivedbylabel</find>
       <find>rescanblockchain</find>
@@ -621,7 +89,6 @@
       <find>walletdb.cpp</find>
       <find>walletdb.h</find>
       <find>script.h</find>
-      <find>rpcd</find>
       <find>rpc</find>
       <find>rpcdu</find>
       <find>src</find>
@@ -630,6 +97,11 @@
       <find>OBJS +=</find>
       <find>OBJS</find>
       <find>ABBCCoind</find>
+      <find>rpcd</find>
+      <find>rpcdump</find>
+      <find>LIBS += \</find>
+      <find>class WalletRescanReserver;</find>
+      <find>std</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -664,10 +136,8 @@
         <option value="$PROJECT_DIR$/abbc/src/rpc/rpcrawtransaction.cpp" />
         <option value="$PROJECT_DIR$/ABBCCoin.pro" />
         <option value="$PROJECT_DIR$/abbc/src/main.h" />
-        <option value="$PROJECT_DIR$/abbc/ABBCCoin.pro" />
         <option value="$PROJECT_DIR$/abbc/src/bloom.cpp" />
         <option value="$PROJECT_DIR$/abbc/src/init.h" />
-        <option value="$PROJECT_DIR$/abbc/src/wallet/wallet.h" />
         <option value="$PROJECT_DIR$/abbc/src/base58.h" />
         <option value="$PROJECT_DIR$/abbc/src/qt/statisticspage.cpp" />
         <option value="$PROJECT_DIR$/abbc/src/qt/statisticspage.h" />
@@ -689,6 +159,8 @@
         <option value="$PROJECT_DIR$/abbc/src/server/rpcserver.cpp" />
         <option value="$PROJECT_DIR$/abbc/src/rpc/rpcdump.cpp" />
         <option value="$PROJECT_DIR$/abbc/src/makefile.unix" />
+        <option value="$PROJECT_DIR$/abbc/ABBCCoin.pro" />
+        <option value="$PROJECT_DIR$/abbc/src/wallet/wallet.h" />
       </list>
     </option>
   </component>
@@ -721,13 +193,6 @@
               <item name="abbc-from-mainrepp-working-build" type="462c0819:PsiDirectoryNode" />
               <item name="abbc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="abbc_from_mainrepp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="abbc-from-mainrepp-working-build" type="462c0819:PsiDirectoryNode" />
-              <item name="abbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -794,12 +259,12 @@
       <workItem from="1553748046521" duration="15909000" />
       <workItem from="1553837779723" duration="795000" />
       <workItem from="1554179431526" duration="9627000" />
-      <workItem from="1554268143717" duration="9512000" />
+      <workItem from="1554268143717" duration="13085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155104000" />
+    <option name="totallyTimeSpent" value="158677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="969" extended-state="0" />
@@ -817,7 +282,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.3762712" />
       <window_info anchor="bottom" id="Favorites" order="9" weight="0.3291714" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26795894" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2690992" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="CMake" order="13" />
@@ -871,13 +336,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/abbc/src/walletdb.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/abbc/src/script.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31650">
@@ -1016,13 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/abbc/src/wallet/wallet.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/abbc/src/base58.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1153,30 +604,17 @@
     <entry file="file://$PROJECT_DIR$/abbc/src/qt/optionsdialog.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/abbc/src/qt/optionsdialog.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abbc/src/qt/transactiondesc.cpp">
+    <entry file="file://$PROJECT_DIR$/abbc/src/bitcoinrpc.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="248">
+          <caret line="207" column="36" selection-start-line="207" selection-start-column="36" selection-end-line="207" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/abbc/src/keystore.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#284#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abbc/src/qt/walletmodel.cpp">
+    <entry file="file://$PROJECT_DIR$/abbc/src/rpc/rpcdump.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1198,31 +636,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/abbc/src/rpc/rpcdump.cpp">
+    <entry file="file://$PROJECT_DIR$/abbc/src/makefile.osx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abbc/src/qt/walletmodel.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/abbc/src/bitcoinrpc.h">
+    <entry file="file://$PROJECT_DIR$/abbc/src/keystore.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="207" column="36" selection-start-line="207" selection-start-column="36" selection-end-line="207" selection-end-column="36" />
+        <state relative-caret-position="105">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#284#305#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abbc/src/qt/transactiondesc.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abbc/src/qt/optionsdialog.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/abbc/ABBCCoin.pro">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1839">
-          <caret line="247" column="14" selection-start-line="247" selection-start-column="14" selection-end-line="247" selection-end-column="14" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abbc/src/wallet/wallet.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/abbc/src/makefile.unix">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="205" column="24" selection-start-line="205" selection-start-column="24" selection-end-line="205" selection-end-column="24" />
+        <state relative-caret-position="316">
+          <caret line="201" column="22" selection-start-line="201" selection-start-column="19" selection-end-line="201" selection-end-column="22" />
         </state>
       </provider>
     </entry>

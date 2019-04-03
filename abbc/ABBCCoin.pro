@@ -15,6 +15,7 @@ lessThan(QT_MAJOR_VERSION, 5): CONFIG += static
 QMAKE_CXXFLAGS += -std=c++0x
 QMAKE_CXXFLAGS = -fpermissive
 QMAKE_CFLAGS += -std=c99
+QMAKE_CFLAGS += -std=c++0x
 greaterThan(QT_MAJOR_VERSION, 4) {
     QT += widgets
     DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0
