@@ -135,17 +135,17 @@ OBJS= \
     obj/net.o \
     obj/protocol.o \
     obj/bitcoinrpc.o \
-    obj/rpcdump.o \
-    obj/rpcnet.o \
-    obj/rpcmining.o \
-    obj/rpcwallet.o \
-    obj/rpcblockchain.o \
-    obj/rpcrawtransaction.o \
-    obj/script.o \
+    obj/rpc/rpcdump.o \
+    obj/rpc/rpcnet.o \
+    obj/rpc/rpcmining.o \
+    obj/wallet/rpcwallet.o \
+    obj/rpc/rpcblockchain.o \
+    obj/rpc/rpcrawtransaction.o \
+    obj/script/script.o \
     obj/sync.o \
     obj/util.o \
-    obj/wallet.o \
-    obj/walletdb.o \
+    obj/wallet/wallet.o \
+    obj/wallet/walletdb.o \
     obj/noui.o \
     obj/kernel.o \
     obj/pbkdf2.o \
