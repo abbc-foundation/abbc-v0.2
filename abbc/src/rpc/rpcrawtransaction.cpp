@@ -7,12 +7,13 @@
 #include <boost/assign/list_of.hpp>
 
 #include "base58.h"
-#include "rpcserver.h"
+//#include <server/rpcserver.h>
 #include "txdb.h"
 #include "init.h"
 #include "main.h"
 #include "net.h"
-#include "wallet.h"
+#include "bitcoinrpc.h"
+#include <wallet/wallet.h>
 
 using namespace std;
 using namespace boost;

@@ -6,9 +6,9 @@
 #include "net.h"
 #include "bitcoinrpc.h"
 #include "alert.h"
-#include "wallet.h"
+#include <wallet/wallet.h>
 #include "db.h"
-#include "walletdb.h"
+#include <wallet/walletdb.h>
 
 using namespace json_spirit;
 using namespace std;

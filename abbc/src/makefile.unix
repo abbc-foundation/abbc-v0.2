@@ -154,7 +154,7 @@ OBJS= \
     obj/scrypt-x86.o \
     obj/scrypt-x86_64.o 
 
-all: ABBCCoind
+all: ABBCCoind-cli
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -195,15 +195,15 @@ obj/%.o: %.c
 		     -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 		  rm -f $(@:%.o=%.d)
 		  
-ABBCCoind: $(OBJS:obj/%=obj/%)
+ABBCCoind-cli: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
-install: ABBCCoind
+install: ABBCCoind-cli
 	install -d $(DESTDIR)$(PREFIX)/bin/
-	install -m 775 ABBCCoind $(DESTDIR)$(PREFIX)/bin/
+	install -m 775 ABBCCoind-cli $(DESTDIR)$(PREFIX)/bin/
     
 clean:
-	-rm -f ABBCCoind
+	-rm -f ABBCCoind-cli
 	-rm -f obj/*.o
 	-rm -f obj/*.P
 	-rm -f obj-test/*.o

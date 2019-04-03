@@ -3,7 +3,7 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "rpcserver.h"
+#include <server/rpcserver.h>
 
 #include "base58.h"
 #include "init.h"
@@ -11,7 +11,7 @@
 #include "ui_interface.h"
 #include "util.h"
 #ifdef ENABLE_WALLET
-#include "wallet.h"
+#include <wallet/wallet.h>
 #endif
 
 #include <boost/algorithm/string.hpp>

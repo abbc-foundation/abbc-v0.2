@@ -5,7 +5,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "txdb.h"
-#include "wallet.h"
+#include <wallet/wallet.h>
 #include "crypter.h"
 #include "ui_interface.h"
 #include "base58.h"

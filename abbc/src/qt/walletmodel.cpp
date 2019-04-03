@@ -6,8 +6,8 @@
 #include "uint256_t.h"
 
 #include "ui_interface.h"
-#include "wallet.h"
-#include "walletdb.h" // for BackupWallet
+#include <wallet/wallet.h>
+#include <wallet/walletdb.h> // for BackupWallet
 #include "base58.h"
 
 #include <QSet>

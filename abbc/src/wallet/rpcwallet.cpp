@@ -4,9 +4,9 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "wallet.h"
-#include "walletdb.h"
-#include "rpcserver.h"
+#include <wallet/wallet.h>
+#include <wallet/walletdb.h>
+#include <server/rpcserver.h>
 #include "main.h"
 #include "init.h"
 #include "base58.h"

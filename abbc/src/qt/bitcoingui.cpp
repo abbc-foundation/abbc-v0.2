@@ -29,7 +29,7 @@
 #include "notificator.h"
 #include "guiutil.h"
 #include "rpcconsole.h"
-#include "wallet.h"
+#include <wallet/wallet.h>
 
 #ifdef Q_OS_MAC
 #include "macdockiconhandler.h"
