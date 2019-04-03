@@ -12,27 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3fec2ab-0715-4712-8972-75f67f17b0be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/ABBCCoin.pro" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/ABBCCoin.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/binaries/Linux/ABBCCoind-share-build-22" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/binaries/Linux/ABBCCoind20December" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/binaries/Linux/ABBCCoind24thDecember" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/binaries/Linux/ABBCCoind_04OCt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/binaries/Linux/ABBCCoind_06OCT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/binaries/Linux/ABBCCoind_07thoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/binaries/Linux/ABBCCoind_6thoct" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/binaries/Linux/ABBCCoind_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/binaries/Linux/readme.test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/abbc/src/wallet/wallet.h" beforeDir="false" afterPath="$PROJECT_DIR$/abbc/abbc/src/wallet/wallet.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/binaries/Linux/ABBCCoind-share-build-22" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/binaries/Linux/ABBCCoind20December" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/binaries/Linux/ABBCCoind24thDecember" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/binaries/Linux/ABBCCoind_04OCt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/binaries/Linux/ABBCCoind_06OCT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/binaries/Linux/ABBCCoind_07thoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/binaries/Linux/ABBCCoind_6thoct" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/binaries/Linux/ABBCCoind_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abbc/binaries/Linux/readme.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbc/abbc/bitcoinrpc.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbc/bitcoinrpc.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +43,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/abbc/src/makefile.unix">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
+            <state relative-caret-position="552">
               <caret line="201" column="22" selection-start-line="201" selection-start-column="19" selection-end-line="201" selection-end-column="22" />
             </state>
           </provider>
@@ -188,12 +169,6 @@
               <item name="abbc-from-mainrepp-working-build" type="462c0819:PsiDirectoryNode" />
               <item name="abbc" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="abbc_from_mainrepp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="abbc-from-mainrepp-working-build" type="462c0819:PsiDirectoryNode" />
-              <item name="abbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -259,21 +234,20 @@
       <workItem from="1553748046521" duration="15909000" />
       <workItem from="1553837779723" duration="795000" />
       <workItem from="1554179431526" duration="9627000" />
-      <workItem from="1554268143717" duration="13085000" />
+      <workItem from="1554268143717" duration="13320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158677000" />
+    <option name="totallyTimeSpent" value="158912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="969" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.299787" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3299435" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3295325" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -282,7 +256,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.3762712" />
       <window_info anchor="bottom" id="Favorites" order="9" weight="0.3291714" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2690992" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2690992" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="CMake" order="13" />
@@ -682,7 +656,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/abbc/src/makefile.unix">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
+        <state relative-caret-position="552">
           <caret line="201" column="22" selection-start-line="201" selection-start-column="19" selection-end-line="201" selection-end-column="22" />
         </state>
       </provider>
