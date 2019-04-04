@@ -46,7 +46,7 @@ public:
     virtual bool AddCScript(const CScript& redeemScript) =0;
     virtual bool HaveCScript(const CScriptID &hash) const =0;
     virtual bool GetCScript(const CScriptID &hash, CScript& redeemScriptOut) const =0;
-    virtual bool AddWatchOnly(const CTxDestination &dest) =0;
+    //virtual bool AddWatchOnly(const CTxDestination &dest) =0;
     //virtual bool RemoveWatchOnly(const CScript &dest) =0;
     virtual bool HaveWatchOnly(const CTxDestination &dest) const =0;
 

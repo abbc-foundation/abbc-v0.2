@@ -6,7 +6,7 @@
 
 #include <wallet/wallet.h>
 #include <wallet/walletdb.h>
-#include <server/rpcserver.h>
+#include "bitcoinrpc.h"
 #include "main.h"
 #include "init.h"
 #include "base58.h"

@@ -11,7 +11,7 @@
 using namespace std;
 using namespace boost;
 
-#include "script.h"
+#include  <script/script.h>
 #include "keystore.h"
 #include "bignum.h"
 #include "key.h"

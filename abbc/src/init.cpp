@@ -4,6 +4,7 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #include "txdb.h"
+#include <wallet/wallet.h>
 #include <wallet/walletdb.h>
 #include "bitcoinrpc.h"
 #include "net.h"
@@ -826,7 +827,8 @@ bool AppInit2()
         if (!pwalletMain->GetKeyFromPool(newDefaultKey, false))
             strErrors << _("Cannot initialize keypool") << "\n";
         pwalletMain->SetDefaultKey(newDefaultKey);
-        if (!pwalletMain->SetAddressBook(pwalletMain->vchDefaultKey.GetID(), "", "receive"))
+     //   if (!pwalletMain->SetAddressBook(pwalletMain->vchDefaultKey.GetID(), "", "receive"))
+        if (!pwalletMain->SetAddressBook(pwalletMain->vchDefaultKey.GetID(),"", "receive"))
             strErrors << _("Cannot write default address") << "\n";
     }
 

@@ -94,10 +94,12 @@ DEBUGFLAGS=-g
 ifeq (${ARCH}, i686)
     EXT_OPTIONS=-msse2
 endif
-
+#CXXFLAGS  := -W -Wall -g -std=c99
+CXXFLAGS  := -W -Wall -g -std=c++11
 
 # CXXFLAGS can be specified on the make command line, so we use xCXXFLAGS that only
 # adds some defaults in front. Unfortunately, CXXFLAGS=... $(CXXFLAGS) does not work.
+
 xCXXFLAGS=-O2 $(EXT_OPTIONS) -pthread -Wall -Wextra -Wno-ignored-qualifiers -Wformat -Wformat-security -Wno-unused-parameter \
     $(DEBUGFLAGS) $(DEFS) $(HARDENING) $(CXXFLAGS)
 
@@ -198,7 +200,7 @@ obj/%.o: %.c
 ABBCCoind: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
-install: ABBCCoind-cli
+install: ABBCCoind
 	install -d $(DESTDIR)$(PREFIX)/bin/
 	install -m 775 ABBCCoind-cli $(DESTDIR)$(PREFIX)/bin/
     

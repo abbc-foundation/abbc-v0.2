@@ -1041,7 +1041,6 @@ private:
 
 bool GetWalletFile(CWallet* pwallet, std::string &strWalletFileOut);
 
-
 class WalletRescanReserver
 {
 private:
