@@ -284,10 +284,10 @@ public:
     bool AddToWalletIfInvolvingMe(const CTransaction& tx, const CBlock* pblock, bool fUpdate = false, bool fFindBlock = false);
     bool EraseFromWallet(uint256 hash);
     void WalletUpdateSpent(const CTransaction& prevout, bool fBlock = false);
-    int ScanForWalletTransactions(CBlockIndex* pindexStart, bool fUpdate = false);
-    int ScanForWalletTransaction(const uint256& hashTx);
-    //int64_t RescanFromTime(int64_t startTime, const WalletRescanReserver& reserver, bool update);
-    //CBlockIndex* ScanForWalletTransactions(CBlockIndex* pindexStart, CBlockIndex* pindexStop, const WalletRescanReserver& reserver, bool fUpdate = false);
+    //int ScanForWalletTransactions(CBlockIndex* pindexStart, bool fUpdate = false);
+    //int ScanForWalletTransaction(const uint256& hashTx);
+    int64_t RescanFromTime(int64_t startTime, const WalletRescanReserver& reserver, bool update);
+    CBlockIndex* ScanForWalletTransactions(CBlockIndex* pindexStart, CBlockIndex* pindexStop, const WalletRescanReserver& reserver, bool fUpdate = false);
 
     void ReacceptWalletTransactions();
     void ResendWalletTransactions(bool fForce = false);

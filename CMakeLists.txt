@@ -1040,10 +1040,10 @@ add_executable(abbc_from_mainrepp
         abbc/src/bignum.h
         abbc/src/bitcoinrpc.cpp
         abbc/src/bitcoinrpc.h
-        abbc/src/blake.c
+        abbc/src/crypto/blake.c
         abbc/src/bloom.cpp
         abbc/src/bloom.h
-        abbc/src/bmw.c
+        abbc/src/crypto/bmw.c
         abbc/src/checkpoints.cpp
         abbc/src/checkpoints.h
         abbc/src/checkqueue.h

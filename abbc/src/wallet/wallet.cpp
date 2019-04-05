@@ -951,6 +951,134 @@ bool CWalletTx::WriteToDisk()
 
 
 
+/**
+ * Scan active chain for relevant transactions after importing keys. This should
+ * be called whenever new keys are added to the wallet, with the oldest key
+ * creation time.
+ *
+ * @return Earliest timestamp that could be successfully scanned from. Timestamp
+ * returned will be higher than startTime if relevant blocks could not be read.
+ */
+int64_t CWallet::RescanFromTime(int64_t startTime, const WalletRescanReserver& reserver, bool update)
+{
+    // Find starting block. May be null if nCreateTime is greater than the
+    // highest blockchain timestamp, in which case there is nothing that needs
+    // to be scanned.
+    CBlockIndex* startBlock = nullptr;
+    {
+        LOCK(cs_main);
+        startBlock = chainActive.FindEarliestAtLeast(startTime - TIMESTAMP_WINDOW);
+        LogPrintf("%s: Rescanning last %i blocks\n", __func__, startBlock ? chainActive.Height() - startBlock->nHeight + 1 : 0);
+    }
+
+    if (startBlock) {
+        const CBlockIndex* const failedBlock = ScanForWalletTransactions(startBlock, nullptr, reserver, update);
+        if (failedBlock) {
+            return failedBlock->GetBlockTimeMax() + TIMESTAMP_WINDOW + 1;
+        }
+    }
+    return startTime;
+}
+
+
+
+/**
+ * Scan the block chain (starting in pindexStart) for transactions
+ * from or to us. If fUpdate is true, found transactions that already
+ * exist in the wallet will be updated.
+ *
+ * Returns null if scan was successful. Otherwise, if a complete rescan was not
+ * possible (due to pruning or corruption), returns pointer to the most recent
+ * block that could not be scanned.
+ *
+ * If pindexStop is not a nullptr, the scan will stop at the block-index
+ * defined by pindexStop
+ *
+ * Caller needs to make sure pindexStop (and the optional pindexStart) are on
+ * the main chain after to the addition of any new keys you want to detect
+ * transactions for.
+ */
+CBlockIndex* CWallet::ScanForWalletTransactions(CBlockIndex* pindexStart, CBlockIndex* pindexStop, const WalletRescanReserver &reserver, bool fUpdate)
+{
+    int64_t nNow = GetTime();
+    const CChainParams& chainParams = Params();
+
+    assert(reserver.isReserved());
+    if (pindexStop) {
+        assert(pindexStop->nHeight >= pindexStart->nHeight);
+    }
+
+    CBlockIndex* pindex = pindexStart;
+    CBlockIndex* ret = nullptr;
+
+    if (pindex) LogPrintf("Rescan started from block %d...\n", pindex->nHeight);
+
+    {
+        fAbortRescan = false;
+        ShowProgress(_("Rescanning..."), 0); // show rescan progress in GUI as dialog or on splashscreen, if -rescan on startup
+        CBlockIndex* tip = nullptr;
+        double dProgressStart;
+        double dProgressTip;
+        {
+            LOCK(cs_main);
+            tip = chainActive.Tip();
+            dProgressStart = GuessVerificationProgress(chainParams.TxData(), pindex);
+            dProgressTip = GuessVerificationProgress(chainParams.TxData(), tip);
+        }
+        double gvp = dProgressStart;
+        while (pindex && !fAbortRescan && !ShutdownRequested())
+        {
+            if (pindex->nHeight % 100 == 0 && dProgressTip - dProgressStart > 0.0) {
+                ShowProgress(_("Rescanning..."), std::max(1, std::min(99, (int)((gvp - dProgressStart) / (dProgressTip - dProgressStart) * 100))));
+            }
+            if (GetTime() >= nNow + 60) {
+                nNow = GetTime();
+                LogPrintf("Still rescanning. At block %d. Progress=%f\n", pindex->nHeight, gvp);
+            }
+
+            CBlock block;
+            if (ReadBlockFromDisk(block, pindex, Params().GetConsensus())) {
+                LOCK2(cs_main, cs_wallet);
+                if (pindex && !chainActive.Contains(pindex)) {
+                    // Abort scan if current block is no longer active, to prevent
+                    // marking transactions as coming from the wrong block.
+                    ret = pindex;
+                    break;
+                }
+                for (size_t posInBlock = 0; posInBlock < block.vtx.size(); ++posInBlock) {
+                    AddToWalletIfInvolvingMe(block.vtx[posInBlock], pindex, posInBlock, fUpdate);
+                }
+            } else {
+                ret = pindex;
+            }
+            if (pindex == pindexStop) {
+                break;
+            }
+            {
+                LOCK(cs_main);
+                pindex = chainActive.Next(pindex);
+                gvp = GuessVerificationProgress(chainParams.TxData(), pindex);
+                if (tip != chainActive.Tip()) {
+                    tip = chainActive.Tip();
+                    // in case the tip has changed, update progress max
+                    dProgressTip = GuessVerificationProgress(chainParams.TxData(), tip);
+                }
+            }
+        }
+        if (pindex && fAbortRescan) {
+            LogPrintf("Rescan aborted at block %d. Progress=%f\n", pindex->nHeight, gvp);
+        } else if (pindex && ShutdownRequested()) {
+            LogPrintf("Rescan interrupted by shutdown request at block %d. Progress=%f\n", pindex->nHeight, gvp);
+        }
+        ShowProgress(_("Rescanning..."), 100); // hide progress dialog in GUI
+    }
+    return ret;
+}
+
+
+/*
+
+
 int CWallet::ScanForWalletTransactions(CBlockIndex* pindexStart, bool fUpdate)
 {
     int ret = 0;
@@ -1019,7 +1147,10 @@ int CWallet::ScanForWalletTransactions(CBlockIndex* pindexStart, bool fUpdate)
     }
     return ret;
 }
-//int CWallet::ScanForWalletTransaction(const uint256 &hashTx)
+
+ */
+
+ //int CWallet::ScanForWalletTransaction(const uint256 &hashTx)
 //{
 //    CTransaction tx;
 //    tx.ReadFromDisk(COutPoint(hashTx, 0));
@@ -1083,12 +1214,12 @@ void CWallet::ReacceptWalletTransactions()
                     wtx.AcceptWalletTransaction(txdb);
             }
         }
-        if (!vMissingTx.empty())
-        {
-            // TODO: optimize this to scan just part of the block chain?
-            if (ScanForWalletTransactions(pindexGenesisBlock))
-                fRepeat = true; // Found missing transactions: re-do re-accept.
-        }
+//        if (!vMissingTx.empty())
+//        {
+//            // TODO: optimize this to scan just part of the block chain?
+//            if (ScanForWalletTransactions(pindexGenesisBlock))
+//                fRepeat = true; // Found missing transactions: re-do re-accept.
+//        }
     }
 }
 
